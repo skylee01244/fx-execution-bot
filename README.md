@@ -8,3 +8,23 @@ I built this project to gain hands-on experience with:
 - Practical aspects of trade execution and portfolio monitoring
 - Applying programming to real-world finance contexts
 
+Using 
+- rich library, beautiful live displays
+pip install -r requirements.txt
+
+Use rich + textual + typer as your CLI foundation for Core Terminal & CLI Experience
+Use pandas, numpy for Data Handling & Analytics
+Use aiohttp + websockets for real-time for Market Data Integration but I will add this later and use yfinance or other data to simulate the real market later. 
+
+Use plotly or rich live charts inside a textual interface for Visualization & Monitoring, make interactive charts
+
+Use asyncio + uvloop for Performance & Concurrency
+
+cProfile to profile my code.
+
+Testing/Maintaining
+
+pytest - For testing strategies, APIs, and data pipelines.
+loguru - Powerful and beautiful logging.
+docker - Containerize your terminal for deployment.
+
